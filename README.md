@@ -13,6 +13,10 @@ Backend Documentation: https://documenter.getpostman.com/view/6014566/TVRq25ip
 
 ### Filtered:
 
+![details](details.png)
+
+### Filtered:
+
 ![filtered](filtered.png)
 
 ### List:
