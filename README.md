@@ -11,7 +11,7 @@ Backend Documentation: https://documenter.getpostman.com/view/6014566/TVRq25ip
 - Password: `hamza`
 <hr/>
 
-### Filtered:
+### Details:
 
 ![details](details.png)
 
