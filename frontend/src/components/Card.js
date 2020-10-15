@@ -6,7 +6,7 @@ import picture from "../assets/no_image.png";
 const CustomCard = ({title, color, stock, timestamp, id, onClick }) => {
   return (
     <div>
-      <Card id={id} className="mt-3 ml-3" body outline color="primary">
+      <Card key={id} id={id} className="mt-3 ml-3" body outline color="primary">
         <CardImg top src={picture} width="20%" alt="Card image cap" />
         <CardBody >
         <CardSubtitle>Name: <b>{title}</b></CardSubtitle>

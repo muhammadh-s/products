@@ -6,7 +6,7 @@ const Dropdown = ({options, value, changedValue}) => {
 <FormGroup>
 <Label for="select">Color</Label>
 <Input type="select" name="select" id="select" value={value} onChange={changedValue}>
-<option value="">None</option>{options.map(({ value, label }, index) => <option value={value} >{label}</option>)}
+<option value="">None</option>{options.map(({ value, label }, index) => <option key={index} value={value} >{label}</option>)}
 </Input>
 </FormGroup>
     );

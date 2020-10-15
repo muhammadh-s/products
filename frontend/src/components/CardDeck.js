@@ -5,7 +5,7 @@ import React from "react";
 const CustomCardDeck = ({ data, onClick }) => {
   const Cards = data.map((card) => (
     <Card
-      key={card.title}
+      key={card._id}
       title={card.name}
       details={card.details}
       color={card.color}

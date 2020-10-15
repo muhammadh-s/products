@@ -153,14 +153,6 @@ function App() {
           });
     }
 
-    const colorChanged = (value) => {
-      setColor(value);
-    }
-
-    const dateChanged = (value) => {
-      setDate(value);
-    }
-
     const feedData = () => {
       if (date.length!== 0 && color.length!== 0){
         const newData = data.filter(obj=> obj.createdAt === date && obj.color === color)
@@ -209,11 +201,11 @@ function App() {
       <h2 className="ml-5 mt-5">Filter</h2>
       <Row>
         <Col xs={{ size: 2, offset: 3 }}>
-          <Dropdown options={colors} value={color} changedValue={(e)=>colorChanged(e.target.value)}/>
+          <Dropdown options={colors} value={color} changedValue={(e)=>setColor(e.target.value)}/>
         </Col>
         <Col xs={{ size: 2, offset: 1 }}>
         <Label for="select">Date</Label>
-        <Input type="date" name="date" id="date" value={date} onChange={(e)=>dateChanged(e.target.value)}/>
+        <Input type="date" name="date" id="date" value={date} onChange={(e)=>setDate(e.target.value)}/>
         </Col>
         </Row>
         <hr/>
