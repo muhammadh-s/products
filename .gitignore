@@ -169,6 +169,14 @@ sketch
 .ionide
 
 .gitignore
+.eslintignore
+package-lock.json
+.eslintrc
+.eslintrc.json
+yarn.lock
+
+
+
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,node,react
 

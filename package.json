@@ -1,0 +1,24 @@
+{
+  "name": "job-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd backend && npm run start",
+    "client": "cd frontend && npm run start",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadh-s/products.git"
+  },
+  "author": "Muhammad Hamza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammadh-s/products/issues"
+  },
+  "homepage": "https://github.com/muhammadh-s/products#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
