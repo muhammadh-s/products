@@ -1,7 +1,0 @@
-node_modules
-.gitignore
-.eslintignore
-package-lock.json
-.eslintrc
-.eslintrc.json
-yarn.lock
